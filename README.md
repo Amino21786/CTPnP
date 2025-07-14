@@ -1,6 +1,6 @@
-# Thesis Formulation Report (TFR)
+# SAMBa Undergraduate Summer Placement - starter code repository
 # Plug-and-play regularisation techniques (PnP) for inverse problems
-This folder consists of Python code used for the TFR report and project involving PnP techniques for inverse problems. Primarily the application of computed tomopgraphy (CT) scanning was used for applications involving image reconstruction of MNIST digits, Shepp-Logan Phantom and natural images. 
+This folder consists of Python code used for the summer placement project involving PnP techniques for inverse problems. Primarily the application of computed tomopgraphy (CT) scanning was used for applications involving image reconstruction of Shepp-Logan Phantom and natural images. 
 
 PnP algorithms:
 - Proximal gradient descent (PGD)
@@ -15,7 +15,6 @@ PnP denoisers:
 
 Other subfolders:
 - Natural_Images - contains example images including MNIST and butterfly.png (butterfly in my childhood home garden) for application use for CT and general image denoising
-- 
 
 ## Functionality of the files
 There was mainly a use of Jupyter notebooks for fast and easy use of running the respective algorithms and denoisers. Each notebook had an array of functions to fit their purpose and use similar elements across the board (e.g algorithms, forward operators, noise etc)
