@@ -1,0 +1,48 @@
+
+ dependencies:
+  - python ==3.13
+  - numpy
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - tqdm
+  - pyyaml
+  - pillow
+  - pytorch
+  - torch
+  - torchvision
+  - cudatoolkit=11.0  # or your CUDA version if using GPU
+  - opencv
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - notebook
+  - ipywidgets
+  - h5py
+  - imageio
+  - tensorboard
+  - bm3d
+  - deepinv
+  - jax
+  - equinox
+  - optax
+  - vtk
+  - tqdm
+  - bm3d
+  - skimage
+  - scipy
+  - statsmodels
+  - setuptools
+  
+  - pip:
+    - bm3d
+    - k-svd
+    - denoise
+    - pywavelets
+    - pytorch-lightning
+    - opencv-python
+    - wandb  # Weights and Biases for experiment tracking
+  
